@@ -77,6 +77,10 @@
     max-width: 15%;
   }
 
+  .p-wrapper p {
+    width: 85%;
+  }
+
 }
 
 @media screen and (max-width: 1450px) {

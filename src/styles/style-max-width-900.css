@@ -154,6 +154,10 @@
   }
 
   .p-wrapper ul {
+    display: block;
+  }
+
+  .p-wrapper ul {
     list-style: '*';
     text-indent: 30px;
     line-height: 2.3;
