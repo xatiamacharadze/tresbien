@@ -2,60 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31c999f-37de-4f11-b5e2-ef026baf1e64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/Emberly-BlackNarrow.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-55Roman.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-65Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/HelveticaNeueLTGEO-75Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/PublicSans-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Book.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Book.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Medium.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Medium.woff2" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1077">
-              <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+            <state relative-caret-position="180">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -190,6 +205,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tresbien.agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tresbien.agency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,6 +237,7 @@
       <recent name="$PROJECT_DIR$/src/styles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles/fonts1" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/images" />
@@ -243,7 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599657316892</updated>
       <workItem from="1599657318238" duration="28564000" />
-      <workItem from="1603127659032" duration="8519000" />
+      <workItem from="1603127659032" duration="8915000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599659179410</created>
@@ -378,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603139603108</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixing error with fonts">
+      <created>1603140354845</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603140354845</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37083000" />
+    <option name="totallyTimeSpent" value="37479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
@@ -430,7 +460,8 @@
     <MESSAGE value="Update env token" />
     <MESSAGE value="Update index.sass" />
     <MESSAGE value="Update fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update fonts" />
+    <MESSAGE value="Fixing error with fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing error with fonts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/styles/reset.sass">
@@ -695,9 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/fonts1/MonumentExtended-Bold.eot">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/fonts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -727,10 +755,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/fonts1/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/fonts/MonumentExtended-Bold.eot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1077">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        <state relative-caret-position="180">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
