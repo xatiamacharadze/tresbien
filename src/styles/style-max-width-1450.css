@@ -1,0 +1,217 @@
+@media screen and (max-height: 950px) {
+
+  .who-we-are span.fs-18 {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 1700px) {
+
+  .fs-16 {
+    font-size: 14px;
+  }
+
+  .fs-18 {
+    font-size: 16px;
+  }
+
+  .fs-20 {
+    font-size: 18px;
+  }
+
+  .fs-22 {
+    font-size: 20px;
+  }
+
+  .fs-24 {
+    font-size: 22px;
+  }
+
+  .fs-30 {
+    font-size: 28px;
+  }
+
+  .fs-34 {
+    font-size: 30px;
+  }
+
+  .fs-36 {
+    font-size: 34px;
+  }
+
+  .fs-40 {
+    font-size: 30px;
+  }
+
+  .fs-46 {
+    font-size: 42px;
+  }
+
+  .fs-48 {
+    font-size: 44px;
+  }
+
+  .fs-50 {
+    font-size: 40px;
+  }
+
+  .fs-60 {
+    font-size: 50px;
+  }
+
+  .main-container {
+    padding: 12vh 7.5vw;
+  }
+
+  .about-container .mid-section {
+    /*padding: 43px 60px;*/
+    margin-bottom: 25px;
+  }
+
+  .about-container .header {
+    padding: 20px 0;
+  }
+
+  .mail-container img {
+    max-width: 15%;
+  }
+
+}
+
+@media screen and (max-width: 1450px) {
+
+  .fs-18 {
+    font-size: 14px;
+  }
+
+  .fs-22 {
+    font-size: 18px;
+  }
+
+  .fs-26 {
+    font-size: 24px;
+  }
+
+  .fs-30 {
+    font-size: 26px;
+  }
+
+  .fs-34 {
+    font-size: 28px;
+  }
+
+  .fs-36 {
+    font-size: 32px;
+  }
+
+  .fs-40 {
+    font-size: 28px;
+  }
+
+  .fs-48 {
+    font-size: 40px;
+  }
+
+  .fs-50 {
+    font-size: 30px;
+  }
+
+
+  .number {
+    width: 53px;
+    height: 53px;
+  }
+
+  .who-we-are span {
+    display: none;
+  }
+
+  .p-wrapper p {
+    width: 90%;
+  }
+
+  .about-container .mid-section {
+    padding: 6% 45px;
+  }
+
+  .about-container .bottom {
+    padding: 0 45px;
+    width: calc(100% - 90px);
+  }
+
+  .mail-container img {
+    max-width: 13%;
+  }
+
+}
+
+@media screen and (max-width: 1350px) {
+
+  .fs-16 {
+    font-size: 12px;
+  }
+
+  .fs-18 {
+    font-size: 14px;
+  }
+
+  .fs-20 {
+    font-size: 16px;
+  }
+
+  .fs-22 {
+    font-size: 16px;
+  }
+
+  .fs-24 {
+    font-size: 20px;
+  }
+
+  .fs-26 {
+    font-size: 22px;
+  }
+
+  .fs-30 {
+    font-size: 24px;
+  }
+
+  .fs-34 {
+    font-size: 26px;
+  }
+
+  .fs-36 {
+    font-size: 30px;
+  }
+
+  .fs-40 {
+    font-size: 26px;
+  }
+
+  .fs-48 {
+    font-size: 36px;
+  }
+
+  .fs-50 {
+    font-size: 26px;
+  }
+
+  .about-container .mid-section {
+    padding: 6% 40px;
+  }
+
+  .about-container .bottom {
+    padding: 0 40px;
+    width: calc(100% - 80px);
+  }
+
+  .number {
+    width: 45px;
+    height: 45px;
+  }
+
+  .mail-container img {
+    max-width: 10%;
+  }
+
+}

@@ -1,0 +1,344 @@
+.main-container {
+  padding: 13vh 8.6vw;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.scroll-down {
+  display: none;
+}
+
+.wrapper-for-responsive {
+  width: 20%;
+  position: relative;
+  display: flex;
+}
+
+.logo-container {
+  height: 100%;
+  width: 10%;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img {
+  height: 100%;
+}
+
+.description-container .wrapper {
+  transform: rotate(-90deg) translate(-100%, -50%);
+  display: flex;
+  transform-origin: 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.description-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 50%;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0 30px;
+}
+
+.decentralized-wrapper:before {
+  content: '';
+  position: absolute;
+  background-image: url(../../static/lines.svg);
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(1, -1);
+}
+
+.decentralized-wrapper {
+  position: relative;
+}
+
+.description-container span {
+  line-height: 2.3;
+}
+
+.number {
+  width: 63px;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.number img {
+  max-width: 50%;
+}
+
+.job {
+  align-items: flex-start;
+  flex-direction: column;
+  transform: rotate(-90deg) translate(0, 50%);
+  display: flex;
+  transform-origin: bottom left;
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+}
+
+.job-container {
+  display: flex;
+  width: 50%;
+  align-items: flex-end;
+  position: relative;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0 30px;
+}
+
+.job p {
+  white-space: nowrap;
+}
+
+.job-container .number {
+  bottom: 35%;
+  left: 0;
+  transform: translate(-50%, 0);
+}
+
+.about-container {
+  width: 31%;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-container .number {
+  top: 26%;
+  left: 0;
+  transform: translate(-50%, 0);
+}
+
+.about-container .header {
+  padding: 31px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  width: 100%;
+  text-align: center;
+}
+
+.about-container .mid-section {
+  /*padding: 55px 60px;*/
+  padding: 9% 60px;
+}
+
+.about-container .mid-section span{
+  display: block;
+}
+
+.about-container .bottom {
+  padding: 0 60px;
+  width: calc(100% - 120px);
+  position: relative;
+  display: flex;
+  height: 28vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-container .header h1 {
+  font-size: 2.4vw;
+  white-space: nowrap;
+}
+
+.we-do-container {
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  position: relative;
+  width: 10%;
+}
+
+.we-do-container .number {
+  bottom: 11%;
+  left: 0;
+  transform: translate(-50%, 0);
+}
+
+.we-do-container .rotated {
+  position: relative;
+  height: 100%;
+  top: 0;
+}
+
+.we-do span {
+  white-space: nowrap;
+}
+
+.p-wrapper {
+  transform: rotate(-90deg) translate(-100%, -50%);
+  transform-origin: top left;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  text-align: right;
+  width: 500%;
+}
+
+.p-wrapper p {
+  width: 70%;
+  max-width: 51vh;
+  margin-left: auto;
+}
+
+.who-we-are {
+  align-items: center;
+  justify-content: flex-start;
+  transform: rotate(-90deg) translate(0, 100%);
+  display: flex;
+  transform-origin: bottom left;
+  bottom: 10%;
+  left: 21px;
+  position: absolute;
+  width: 100%;
+}
+
+.who-we-are span {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.who-we-are img {
+  transform: rotate(90deg);
+  max-width: 10%;
+}
+
+.we-do {
+  transform: rotate(-90deg) translate(0, 50%);
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  /*left: 100%;*/
+}
+
+.contact-wrapper {
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  width: 29%;
+  position: relative;
+}
+
+.line {
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+  border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.contact-container {
+  width: 100%;
+  position: relative;
+  height: 59%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.contact-container .number {
+  top: 0;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.contact-us .contact {
+  width: 71%;
+  margin-left: 29%;
+  height: 85%;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-us {
+  width: 65%;
+}
+
+.contact-us .inner-container p {
+  transform: rotate(-90deg) translate(0, 100%);
+  transform-origin: bottom left;
+  bottom: 34px;
+  left: 21px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(180deg);
+  height: calc(100% - 34px);
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 21px;
+}
+
+.arrows img {
+  max-width: 22%;
+}
+
+.inner-container {
+  height: 100%;
+}
+
+.talk-container {
+  height: 41%;
+  position: relative;
+}
+
+.talk-container .number {
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.talk-container .inner-container p {
+  width: 50%;
+  text-align: right;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.mail-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mail-container span {
+  margin-right: 15px;
+}
+
+.talk-container .inner-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
