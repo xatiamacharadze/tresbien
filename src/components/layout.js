@@ -4,6 +4,8 @@ import React, { Component, useRef } from "react";
 import PropTypes from "prop-types";
 // import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
+import { HelmetDatoCms } from "gatsby-source-datocms";
+import { Helmet } from "react-helmet"
 
 import "../styles/index.sass";
 

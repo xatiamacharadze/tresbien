@@ -1,10 +1,10 @@
-require('dotenv').config()
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: `Mariam Topuria`,
-    siteUrl: `https://www.drmariamtopuria.com`,
-    description: `Dr. Mariam Topuria`,
+    title: `Tresbien Agency`,
+    siteUrl: `http://tresbien.agency/`,
+    description: `Tresbien Agency`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,8 +13,8 @@ module.exports = {
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken: process.env.DATO_API_TOKEN,
+        apiToken: '35a0950edd9ee96c360dd98cf590f1',
       },
     },
   ],
-}
+};
