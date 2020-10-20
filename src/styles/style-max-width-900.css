@@ -104,6 +104,7 @@
   .about-container .header {
     padding: 31px 0;
     border-top: 1px solid rgba(255, 255, 255, .3);
+    text-align: left;
   }
 
   .about-container .mid-section {
@@ -204,6 +205,14 @@
 
   .arrows {
     height: 150%;
+    transform: rotate(180deg) translate(0, -17%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .arrows img {
+    max-width: 100%;
   }
 
   .inner-container {
@@ -249,6 +258,10 @@
     max-width: none;
   }
 
+  .decentralized-wrapper img {
+    max-height: 225px;
+  }
+
 
 }
 
@@ -282,7 +295,7 @@
   }
 
   .fs-46 {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .fs-60 {
@@ -290,7 +303,7 @@
   }
 
   .about-container .header h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
 
   .main-container {
@@ -350,6 +363,10 @@
   .logo-container {
     width: 33%;
     height: 90vh;
+  }
+
+  .decentralized-wrapper img {
+    max-height: 200px;
   }
 
 }

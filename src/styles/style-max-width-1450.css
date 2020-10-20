@@ -6,6 +6,14 @@
 
 }
 
+@media screen and (max-height: 870px) {
+
+  .who-we-are span {
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 1700px) {
 
   .fs-16 {
@@ -65,8 +73,13 @@
   }
 
   .about-container .mid-section {
-    /*padding: 43px 60px;*/
+    padding: 9% 45px;
     margin-bottom: 25px;
+  }
+
+  .about-container .bottom {
+    padding: 0 45px;
+    width: calc(100% - 90px);
   }
 
   .about-container .header {
@@ -79,6 +92,10 @@
 
   .p-wrapper p {
     width: 85%;
+  }
+
+  .decentralized-wrapper img {
+    max-height: 200px;
   }
 
 }
@@ -146,6 +163,10 @@
 
   .mail-container img {
     max-width: 13%;
+  }
+
+  .decentralized-wrapper img {
+    max-height: 180px;
   }
 
 }

@@ -61,6 +61,7 @@ const TemplateWrapper1 = ({ children }) => {
               <div className="wrapper">
                 <div className="decentralized-wrapper">
                   <span className="monument-extended-medium fs-18 fc-beige uppercase">decentralized</span>
+                  <img src={"lines.svg"}/>
                 </div>
                 <span>&nbsp;</span>
                 <span>&nbsp;</span>
@@ -79,7 +80,7 @@ const TemplateWrapper1 = ({ children }) => {
             </div>
 
             <div className="scroll-down">
-              <span className="fs-30 fc-red monument-extended-book">Scroll down</span>
+              <span className="fs-30 fc-red monument-extended-medium">Scroll down</span>
               <img src={"arrow-red.svg"}/>
             </div>
 
@@ -215,6 +216,7 @@ export default class TemplateWrapper extends Component {
           <div className="wrapper">
             <div className="decentralized-wrapper">
               <span className="monument-extended-medium fs-18 fc-beige uppercase">decentralized</span>
+              <img src={"lines.svg"}/>
             </div>
             <span>&nbsp;</span>
             <span>&nbsp;</span>
@@ -233,7 +235,7 @@ export default class TemplateWrapper extends Component {
         </div>
 
         <div className="scroll-down">
-          <span className="fs-30 fc-red monument-extended-book">Scroll down</span>
+          <span className="fs-30 fc-red monument-extended-medium">Scroll down</span>
           <img src={"arrow-red.svg"}/>
         </div>
 

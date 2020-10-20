@@ -60,6 +60,11 @@
   .mail-container img {
     max-width: 10%;
   }
+
+  .decentralized-wrapper img {
+    max-height: 160px;
+  }
+
 }
 
 @media screen and (max-width: 1050px) {
