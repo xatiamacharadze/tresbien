@@ -217,6 +217,7 @@
 
   .inner-container {
     overflow: hidden;
+    position: relative;
   }
 
   .talk-container .number {
@@ -260,6 +261,10 @@
 
   .decentralized-wrapper img {
     max-height: 225px;
+  }
+
+  .mail-container img {
+    max-width: 40px;
   }
 
 

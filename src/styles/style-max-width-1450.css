@@ -87,7 +87,7 @@
   }
 
   .mail-container img {
-    max-width: 15%;
+    max-width: 50px;
   }
 
   .p-wrapper p {
@@ -97,6 +97,12 @@
   .decentralized-wrapper img {
     max-height: 200px;
   }
+
+  .who-we-are img, .arrows img {
+    max-width: 38px;
+  }
+
+
 
 }
 
@@ -162,12 +168,17 @@
   }
 
   .mail-container img {
-    max-width: 13%;
+    max-width: 40px;
   }
 
   .decentralized-wrapper img {
     max-height: 180px;
   }
+
+  .who-we-are img, .arrows img {
+    max-width: 33px;
+  }
+
 
 }
 
@@ -235,8 +246,8 @@
     height: 45px;
   }
 
-  .mail-container img {
-    max-width: 10%;
-  }
+  /*.mail-container img {*/
+    /*max-width: 10%;*/
+  /*}*/
 
 }

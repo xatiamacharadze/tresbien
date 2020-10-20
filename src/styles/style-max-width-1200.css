@@ -1,81 +1,84 @@
 @media screen and (max-width: 1200px) {
 
-  .fs-16 {
-    font-size: 10px;
-  }
+    .fs-16 {
+        font-size: 10px;
+    }
 
-  .fs-18 {
-    font-size: 12px;
-  }
+    .fs-18 {
+        font-size: 12px;
+    }
 
-  .fs-46 {
-    font-size: 30px;
-  }
+    .fs-46 {
+        font-size: 30px;
+    }
 
-  .fs-60 {
-    font-size: 40px;
-  }
+    .fs-60 {
+        font-size: 40px;
+    }
 
-  .about-container .mid-section span{
-    line-height: 2;
-  }
+    .about-container .mid-section span {
+        line-height: 2;
+    }
 
-  .about-container .mid-section {
-    padding: 4% 30px;
-  }
+    .about-container .mid-section {
+        padding: 4% 30px;
+    }
 
-  .about-container .bottom {
-    padding: 0 30px;
-    width: calc(100% - 60px);
-  }
+    .about-container .bottom {
+        padding: 0 30px;
+        width: calc(100% - 60px);
+    }
 
-  .number {
-    width: 35px;
-    height: 35px;
-  }
+    .number {
+        width: 35px;
+        height: 35px;
+    }
 
-  .description-container span {
-    line-height: 2.5;
-  }
+    .description-container span {
+        line-height: 2.5;
+    }
 
-  .mail-container span {
-    margin-right: 10px;
-  }
+    .mail-container span {
+        margin-right: 10px;
+    }
 
-  .talk-container .inner-container p {
-    margin-bottom: 15px;
-  }
+    .talk-container .inner-container p {
+        margin-bottom: 15px;
+    }
 
-  .mail-container {
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column-reverse;
-  }
+    .mail-container {
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
 
-  .mail-container span {
-    margin-right: 0;
-    margin-top: 10px;
-  }
+    .mail-container span {
+        margin-right: 0;
+        margin-top: 10px;
+    }
 
-  .mail-container img {
-    max-width: 10%;
-  }
+    .decentralized-wrapper img {
+        max-height: 160px;
+    }
 
-  .decentralized-wrapper img {
-    max-height: 160px;
-  }
+    .who-we-are img, .arrows img {
+        max-width: 27px;
+    }
 
+    .mail-container img {
+        max-width: 30px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
 
 
-  .logo-container {
-    padding: 0 15px;
-  }
+    .logo-container {
+        padding: 0 15px;
+    }
 
-  .logo-container img {
-    max-width: 100%;
-  }
+    .logo-container img {
+        max-width: 100%;
+    }
 
 }

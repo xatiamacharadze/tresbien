@@ -245,7 +245,7 @@
 
 .who-we-are img {
   transform: rotate(90deg);
-  max-width: 10%;
+  /*max-width: 10%;*/
 }
 
 .we-do {
@@ -318,7 +318,7 @@
 }
 
 .arrows img {
-  max-width: 22%;
+  /*max-width: 22%;*/
 }
 
 .inner-container {

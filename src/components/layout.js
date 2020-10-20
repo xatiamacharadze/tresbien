@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 // import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import { HelmetDatoCms } from "gatsby-source-datocms";
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet";
 
 import "../styles/index.sass";
 
@@ -95,14 +95,13 @@ const TemplateWrapper1 = ({ children }) => {
             </div>
             <div className="mid-section">
         <span className="monument-extended-book fs-16 fc-beige">
-          We are TRES BIEN, a fully digital and highly scalable agency. Our work is powered by a global family of creatives.
-          Storytelling is our communal superpower. And we leverage it to build narratives that cross all
-          funnel segments to grow brands, both big and small.
+          We are a decentralized creative agency. Storytelling is our superpower.
+          And we leverage it to build narratives that cross all funnel segments to grow brands, both big and small.
         </span>
             </div>
             <div className="bottom">
               <div className="who-we-are">
-                <span className="fs-18 fc-black monument-extended-bold">Who we are</span>
+                <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
                 <img src={"arrow.svg"}/>
               </div>
             </div>
@@ -147,7 +146,7 @@ const TemplateWrapper1 = ({ children }) => {
               <div className="contact-us">
                 <div className="contact">
                   <div className="inner-container">
-                    <p className="fs-18 fc-black monument-extended-bold">Contact us</p>
+                    <p className="fs-18 fc-black monument-extended-medium">Contact us</p>
                     <div className="arrows">
                       <img src={"arrow.svg"}/>
                       <img src={"arrow.svg"}/>
@@ -250,14 +249,13 @@ export default class TemplateWrapper extends Component {
         </div>
         <div className="mid-section">
         <span className="monument-extended-book fs-16 fc-beige">
-          We are TRES BIEN, a fully digital and highly scalable agency. Our work is powered by a global family of creatives.
-          Storytelling is our communal superpower. And we leverage it to build narratives that cross all
-          funnel segments to grow brands, both big and small.
+          We are a decentralized creative agency. Storytelling is our superpower.
+          And we leverage it to build narratives that cross all funnel segments to grow brands, both big and small.
         </span>
         </div>
         <div className="bottom">
           <div className="who-we-are">
-            <span className="fs-18 fc-black monument-extended-bold">Who we are</span>
+            <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
             <img src={"arrow.svg"}/>
           </div>
         </div>
@@ -302,7 +300,7 @@ export default class TemplateWrapper extends Component {
           <div className="contact-us">
             <div className="contact">
               <div className="inner-container">
-                <p className="fs-18 fc-black monument-extended-bold">Contact us</p>
+                <p className="fs-18 fc-black monument-extended-medium">Contact us</p>
                 <div className="arrows">
                   <img src={"arrow.svg"}/>
                   <img src={"arrow.svg"}/>
