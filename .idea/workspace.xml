@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c31c999f-37de-4f11-b5e2-ef026baf1e64" name="Default Changelist" comment="Update styles">
-      <change afterPath="$PROJECT_DIR$/static/01-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/02-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/03-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/04-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/05-red.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bg2.png" afterDir="false" />
+    <list default="true" id="c31c999f-37de-4f11-b5e2-ef026baf1e64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style-max-width-1450.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-max-width-1450.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="305" column="45" selection-start-line="305" selection-start-column="43" selection-end-line="305" selection-end-column="45" />
+            <state relative-caret-position="467">
+              <caret line="342" column="9" lean-forward="true" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#75#124#0" expanded="true" />
@@ -42,8 +34,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+            <state relative-caret-position="547">
+              <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+              <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+              <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+              <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+              <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -59,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>margin</find>
       <find>.bottom</find>
       <find>style</find>
       <find>.contact</find>
@@ -89,6 +84,7 @@
       <find>04</find>
       <find>number</find>
       <find>.number {</find>
+      <find>tresbien</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -243,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599657316892</updated>
       <workItem from="1599657318238" duration="28564000" />
-      <workItem from="1603127659032" duration="14255000" />
+      <workItem from="1603127659032" duration="15145000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599659179410</created>
@@ -427,11 +423,25 @@
       <option name="project" value="LOCAL" />
       <updated>1603220421412</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add number hovers, update gradient images, update some responsive styles">
+      <created>1603277080820</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603277080821</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update z-index of numbers">
+      <created>1603278080992</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603278080992</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42819000" />
+    <option name="totallyTimeSpent" value="43709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
@@ -484,7 +494,9 @@
     <MESSAGE value="Update icon sizes and fonts" />
     <MESSAGE value="Update indentation" />
     <MESSAGE value="Update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update styles" />
+    <MESSAGE value="Add number hovers, update gradient images, update some responsive styles" />
+    <MESSAGE value="Update z-index of numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update z-index of numbers" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.cache/commonjs/production-app.js">
@@ -769,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="305" column="45" selection-start-line="305" selection-start-column="43" selection-end-line="305" selection-end-column="45" />
+        <state relative-caret-position="467">
+          <caret line="342" column="9" lean-forward="true" selection-start-line="342" selection-start-column="9" selection-end-line="342" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#75#124#0" expanded="true" />
@@ -781,8 +793,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state relative-caret-position="547">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+          <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+          <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+          <caret line="127" column="28" selection-start-line="127" selection-start-column="28" selection-end-line="127" selection-end-column="28" />
         </state>
       </provider>
     </entry>

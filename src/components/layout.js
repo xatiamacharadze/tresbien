@@ -330,10 +330,10 @@ export default class TemplateWrapper extends Component {
           <div className="inner-container">
             <p className="monument-extended-book fs-60 fc-beige">let's talk</p>
 
-            <div className="mail-container">
+            <a className="mail-container" href={"mailto:hello@tresbien.agency"}>
               <span className="fs-18 fc-beige monument-extended-book">hello@tresbien.agency</span>
               <img src={"letter.svg"}/>
-            </div>
+            </a>
           </div>
         </div>
       </div>

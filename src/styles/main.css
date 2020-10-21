@@ -101,19 +101,31 @@
 }
 
 .number .hover {
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
+    opacity: 0;
 }
 
 .number:hover .hover {
     display: inline-block;
+    visibility: visible;
+    opacity: 1;
 }
 
 .number:hover .visible {
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
+    opacity: 0;
 }
 
 .number img {
     max-width: 50%;
+    position: absolute;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+    transition: all ease 0.2s;
 }
 
 .job {
