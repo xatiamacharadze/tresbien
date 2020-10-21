@@ -71,7 +71,8 @@ const TemplateWrapper1 = ({ children }) => {
 
             <div className="job-container">
               <div className="number bg-black">
-                <img src={"01.svg"}/>
+                <img className={"visible"} src={"01.svg"}/>
+                <img className={"hover"} src={"01-red.svg"}/>
               </div>
               <div className="job">
                 <p className="fc-beige fs-18 monument-extended-medium">Digital content</p>
@@ -88,7 +89,8 @@ const TemplateWrapper1 = ({ children }) => {
 
           <div className="about-container">
             <div className="number bg-black">
-              <img src={"02.svg"}/>
+              <img className={"visible"} src={"02.svg"}/>
+              <img className={"hover"} src={"02-red.svg"}/>
             </div>
             <div className="header">
               <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there.</h1>
@@ -109,7 +111,8 @@ const TemplateWrapper1 = ({ children }) => {
 
           <div className="we-do-container">
             <div className="number bg-black">
-              <img src={"03.svg"}/>
+              <img className={"visible"} src={"03.svg"}/>
+              <img className={"hover"} src={"03-red.svg"}/>
             </div>
             <div className="rotated">
               <div className="p-wrapper">
@@ -140,7 +143,8 @@ const TemplateWrapper1 = ({ children }) => {
           <div className="contact-wrapper">
             <div className="contact-container">
               <div className="number bg-black">
-                <img src={"04.svg"}/>
+                <img className={"visible"} src={"04.svg"}/>
+                <img className={"hover"} src={"04-red.svg"}/>
               </div>
               <div className="line"/>
               <div className="contact-us">
@@ -160,7 +164,8 @@ const TemplateWrapper1 = ({ children }) => {
 
             <div className="talk-container">
               <div className="number bg-black">
-                <img src={"05.svg"}/>
+                <img className={"visible"} src={"05.svg"}/>
+                <img className={"hover"} src={"05-red.svg"}/>
               </div>
 
               <div className="inner-container">
@@ -225,7 +230,8 @@ export default class TemplateWrapper extends Component {
 
         <div className="job-container">
           <div className="number bg-black">
-            <img src={"01.svg"}/>
+            <img className={"visible"} src={"01.svg"}/>
+            <img className={"hover"} src={"01-red.svg"}/>
           </div>
           <div className="job">
             <p className="fc-beige fs-18 monument-extended-medium">Digital content</p>
@@ -242,7 +248,8 @@ export default class TemplateWrapper extends Component {
 
       <div className="about-container">
         <div className="number bg-black">
-          <img src={"02.svg"}/>
+          <img className={"visible"} src={"02.svg"}/>
+          <img className={"hover"} src={"02-red.svg"}/>
         </div>
         <div className="header">
           <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there.</h1>
@@ -263,7 +270,8 @@ export default class TemplateWrapper extends Component {
 
       <div className="we-do-container">
         <div className="number bg-black">
-          <img src={"03.svg"}/>
+          <img className={"visible"} src={"03.svg"}/>
+          <img className={"hover"} src={"03-red.svg"}/>
         </div>
         <div className="rotated">
           <div className="p-wrapper">
@@ -294,7 +302,8 @@ export default class TemplateWrapper extends Component {
       <div className="contact-wrapper">
         <div className="contact-container">
           <div className="number bg-black">
-            <img src={"04.svg"}/>
+            <img className={"visible"} src={"04.svg"}/>
+            <img className={"hover"} src={"04-red.svg"}/>
           </div>
           <div className="line"/>
           <div className="contact-us">
@@ -314,7 +323,8 @@ export default class TemplateWrapper extends Component {
 
         <div className="talk-container">
           <div className="number bg-black">
-            <img src={"05.svg"}/>
+            <img className={"visible"} src={"05.svg"}/>
+            <img className={"hover"} src={"05-red.svg"}/>
           </div>
 
           <div className="inner-container">

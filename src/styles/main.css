@@ -96,6 +96,19 @@
     border: 1px solid rgba(255, 255, 255, .3);
     border-radius: 50%;
     position: absolute;
+    cursor: pointer;
+}
+
+.number .hover {
+    display: none;
+}
+
+.number:hover .hover {
+    display: inline-block;
+}
+
+.number:hover .visible {
+    display: none;
 }
 
 .number img {
@@ -170,7 +183,7 @@
 
 .about-container .bottom {
     padding: 0 60px;
-    background-image: url('../../static/bg2.jpg');
+    background-image: url('../../static/bg2.png');
     width: calc(100% - 120px);
     position: relative;
     display: flex;
@@ -286,7 +299,7 @@
 }
 
 .contact-us .contact {
-    background-image: url('../../static/bg1.jpg');
+    background-image: url('../../static/bg1.png');
     width: 71%;
     margin-left: 29%;
     height: 85%;
