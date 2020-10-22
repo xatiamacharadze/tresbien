@@ -119,7 +119,7 @@
 }
 
 .number img {
-    max-width: 50%;
+    max-width: 55%;
     position: absolute;
     -webkit-transition: all ease 0.2s;
     -moz-transition: all ease 0.2s;
@@ -232,6 +232,10 @@
     white-space: nowrap;
 }
 
+.we-do .number {
+    display: none;
+}
+
 .p-wrapper {
     transform: rotate(-90deg) translate(-100%, -50%);
     transform-origin: top left;
@@ -312,12 +316,21 @@
 }
 
 .contact-us .contact {
-    background-image: url('../../static/bg1.png');
+    /*background-image: url('../../static/bg1.png');*/
     width: 71%;
     margin-left: 29%;
     height: 85%;
-    background-size: cover;
+    /*background-size: cover;*/
     position: relative;
+}
+
+.contact-us .contact:before {
+    content: '';
+    background-image: url('../../static/bg1.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
 }
 
 .contact-us {

@@ -269,7 +269,7 @@ export default class TemplateWrapper extends Component {
       </div>
 
       <div className="we-do-container">
-        <div className="number bg-black">
+        <div className="number bg-black desktop">
           <img className={"visible"} src={"03.svg"}/>
           <img className={"hover"} src={"03-red.svg"}/>
         </div>
@@ -294,6 +294,11 @@ export default class TemplateWrapper extends Component {
 
           <div className="we-do">
             <span className="uppercase fs-46 fc-red monument-extended-book">we do</span>
+
+            <div className="number bg-black responsive">
+              <img className={"visible"} src={"03.svg"}/>
+              <img className={"hover"} src={"03-red.svg"}/>
+            </div>
           </div>
         </div>
 
