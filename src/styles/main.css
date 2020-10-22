@@ -251,7 +251,7 @@
 }
 
 .p-wrapper p {
-    width: 70%;
+    width: 75%;
     max-width: 51vh;
     margin-left: auto;
 }
@@ -391,6 +391,11 @@
 
 .mail-container span {
     margin-right: 15px;
+    transition: all ease 0.3s;
+}
+
+.mail-container:hover span {
+    color: #FF4741;
 }
 
 .talk-container .inner-container {

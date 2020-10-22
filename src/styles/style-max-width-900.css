@@ -5,7 +5,7 @@
     }
 
     .fs-18 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .fs-46 {
@@ -108,7 +108,7 @@
     }
 
     .about-container .mid-section {
-        padding: 4% 0;
+        padding: 50px 0 20px;
     }
 
     .about-container .bottom {
@@ -286,6 +286,10 @@
         transform: translate(0, 0);
     }
 
+    .description-container .fs-18 {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -406,9 +410,9 @@
 
 @media screen and (max-width: 340px) {
 
-}
-
-@media screen and (max-width: 340px) {
+    .fs-16 {
+        font-size: 12px;
+    }
 
     .mail-container span {
         margin-right: 0;
@@ -419,6 +423,14 @@
         flex-direction: column-reverse;
     }
 
+    .about-container .mid-section {
+        padding: 35px 0 20px;
+        margin-bottom: 15px;
+    }
+
+    .we-do {
+        margin-top: 45px;
+    }
 }
 
 @media screen and (max-height: 500px) {
