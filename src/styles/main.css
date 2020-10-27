@@ -195,7 +195,7 @@
 }
 
 .about-container .bottom {
-    padding: 0 60px;
+    /*padding: 0 60px;*/
     background-image: url('../../static/bg2.png');
     width: calc(100% - 120px);
     position: relative;
@@ -256,26 +256,39 @@
     margin-left: auto;
 }
 
-.who-we-are {
+.rotate-container {
     align-items: center;
     justify-content: flex-start;
-    transform: rotate(-90deg) translate(0, 100%);
+    transform: rotate(-90deg) translate(0, 50%);
     display: flex;
     transform-origin: bottom left;
-    bottom: 10%;
-    left: 21px;
+    bottom: 0;
+    left: 50%;
     position: absolute;
-    width: 100%;
+}
+
+.who-we-are {
+    position: relative;
+    height: calc(100% - 40px);
+    width: 13%;
+    margin-left: 10px;
+    top: 20px;
+}
+
+.who-we-are .arrows {
+    display: none;
+}
+
+.who-we-are img {
+    transform: rotate(1800deg) translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
 }
 
 .who-we-are span {
     margin-right: 20px;
     white-space: nowrap;
-}
-
-.who-we-are img {
-    transform: rotate(90deg);
-    /*max-width: 10%;*/
 }
 
 .we-do {
@@ -387,15 +400,29 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
 }
 
 .mail-container span {
-    margin-right: 15px;
+    /*margin-right: 15px;*/
     transition: all ease 0.3s;
 }
 
 .mail-container:hover span {
     color: #FF4741;
+}
+
+.mail-container:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.mail-container:hover:before {
+    background-color: #FF4741;
 }
 
 .talk-container .inner-container {

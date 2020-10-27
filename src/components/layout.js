@@ -93,7 +93,7 @@ const TemplateWrapper1 = ({ children }) => {
               <img className={"hover"} src={"02-red.svg"}/>
             </div>
             <div className="header">
-              <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there.</h1>
+              <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there</h1>
             </div>
             <div className="mid-section">
         <span className="monument-extended-book fs-16 fc-beige">
@@ -103,8 +103,17 @@ const TemplateWrapper1 = ({ children }) => {
             </div>
             <div className="bottom">
               <div className="who-we-are">
-                <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
+                <div className={"rotate-container"}>
+                  <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
+                </div>
                 <img src={"arrow.svg"}/>
+
+                <div className="arrows">
+                  <img src={"arrow.svg"}/>
+                  <img src={"arrow.svg"}/>
+                  <img src={"arrow.svg"}/>
+                  <img src={"arrow.svg"}/>
+                </div>
               </div>
             </div>
           </div>
@@ -117,7 +126,7 @@ const TemplateWrapper1 = ({ children }) => {
             <div className="rotated">
               <div className="p-wrapper">
                 <p className="fs-16 fc-beige monument-extended-book">
-                  Video, Photo, Design, Writing, Strategy, Branding, Social
+                  Video, Photo, Design, Writing, Strategy, Branding,
                   Campaigns, Performance
                 </p>
 
@@ -128,7 +137,7 @@ const TemplateWrapper1 = ({ children }) => {
                   <li className="fs-16 fc-beige monument-extended-book">Writing</li>
                   <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
                   <li className="fs-16 fc-beige monument-extended-book">Branding</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Social Campaigns</li>
+                  <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
                   <li className="fs-16 fc-beige monument-extended-book">Performance</li>
                 </ul>
               </div>
@@ -262,8 +271,17 @@ export default class TemplateWrapper extends Component {
         </div>
         <div className="bottom">
           <div className="who-we-are">
-            <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
+            <div className={"rotate-container"}>
+              <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
+            </div>
             <img src={"arrow.svg"}/>
+
+            <div className="arrows">
+              <img src={"arrow.svg"}/>
+              <img src={"arrow.svg"}/>
+              <img src={"arrow.svg"}/>
+              <img src={"arrow.svg"}/>
+            </div>
           </div>
         </div>
       </div>
@@ -337,7 +355,7 @@ export default class TemplateWrapper extends Component {
 
             <a className="mail-container" href={"mailto:hello@tresbien.agency"}>
               <span className="fs-18 fc-beige monument-extended-book">hello@tresbien.agency</span>
-              <img src={"letter.svg"}/>
+              {/*<img src={"letter.svg"}/>*/}
             </a>
           </div>
         </div>

@@ -1,8 +1,8 @@
 @media screen and (max-height: 950px) {
 
-    .who-we-are span.fs-18 {
-        font-size: 14px;
-    }
+    /*.who-we-are span.fs-18 {*/
+        /*font-size: 14px;*/
+    /*}*/
 
 }
 
@@ -11,6 +11,34 @@
     .who-we-are span {
         display: none;
     }
+
+    .who-we-are > img {
+        display: none;
+    }
+
+    .talk-container .fs-60 {
+        font-size: 38px;
+    }
+
+    .who-we-are .arrows {
+        transform: rotate(0);
+        height: 150%;
+        display: flex;
+    }
+
+    .who-we-are .arrows img {
+        position: relative;
+    }
+
+    .who-we-are {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-height: 780px) {
+
+
 
 }
 
@@ -79,7 +107,7 @@
     }
 
     .about-container .bottom {
-        padding: 0 45px;
+        /*padding: 0 45px;*/
         width: calc(100% - 90px);
     }
 
@@ -154,17 +182,16 @@
         display: none;
     }
 
+    .who-we-are > img {
+        display: none;
+    }
+
     .p-wrapper p {
         width: 90%;
     }
 
     .about-container .mid-section {
         padding: 6% 45px;
-    }
-
-    .about-container .bottom {
-        padding: 0 45px;
-        width: calc(100% - 90px);
     }
 
     .mail-container img {
@@ -179,6 +206,9 @@
         max-width: 33px;
     }
 
+    .who-we-are .arrows {
+        height: 130%;
+    }
 
 }
 

@@ -235,8 +235,8 @@
     }
 
     .mail-container span {
-        margin-right: 20px;
-        margin-top: 0;
+        /*margin-right: 20px;*/
+        /*margin-top: 0;*/
     }
 
     .talk-container {
@@ -397,7 +397,7 @@
 @media screen and (max-width: 400px) {
 
     .mail-container span {
-        margin-right: 10px;
+        /*margin-right: 10px;*/
     }
 
     .mail-container img {
@@ -415,8 +415,8 @@
     }
 
     .mail-container span {
-        margin-right: 0;
-        margin-top: 10px;
+        /*margin-right: 0;*/
+        /*margin-top: 10px;*/
     }
 
     .mail-container {
@@ -433,6 +433,64 @@
     }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 800px) {
+
+    .description-container .fs-18 {
+        font-size: 16px;
+    }
+
+    .job-container {
+        height: calc(100% - 100px);
+    }
+
+    .description-container {
+        height: calc(100% - 100px);
+    }
+}
+
+
+@media screen and (max-height: 650px) {
+
+    .decentralized-wrapper img {
+        max-height: 180px;
+    }
+
+    .description-container .fs-18 {
+        font-size: 14px;
+    }
+
+    .fs-30 {
+        font-size: 16px;
+    }
+
+    .fs-18 {
+        font-size: 14px;
+    }
+
+    .job-container .number {
+        bottom: 5%;
+    }
+
+    .number {
+        width: 45px;
+        height: 45px;
+    }
+
+    .number img {
+        max-width: 20px;
+    }
+
+    .scroll-down img {
+        max-width: 20px;
+    }
+
+    .arrows img {
+        max-width: 70%;
+    }
+
+    .scroll-down {
+        height: 100px;
+    }
+
 
 }

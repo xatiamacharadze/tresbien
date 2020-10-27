@@ -26,7 +26,7 @@
     }
 
     .about-container .bottom {
-        padding: 0 30px;
+        /*padding: 0 30px;*/
         width: calc(100% - 60px);
     }
 
@@ -40,7 +40,7 @@
     }
 
     .mail-container span {
-        margin-right: 10px;
+        /*margin-right: 10px;*/
     }
 
     .talk-container .inner-container p {
@@ -54,8 +54,8 @@
     }
 
     .mail-container span {
-        margin-right: 0;
-        margin-top: 10px;
+        /*margin-right: 0;*/
+        /*margin-top: 10px;*/
     }
 
     .decentralized-wrapper img {
