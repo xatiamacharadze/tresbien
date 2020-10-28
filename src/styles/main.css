@@ -201,6 +201,7 @@
     position: relative;
     display: flex;
     height: 35vh;
+    max-height: 45%;
     background-position: center;
     background-size: cover;
 }
@@ -281,8 +282,14 @@
 
 .who-we-are img {
     transform: rotate(1800deg) translateX(-50%);
-    position: absolute;
+    /*position: absolute;*/
     left: 50%;
+    /*top: 0;*/
+}
+
+.who-we-are > img {
+    position: absolute;
+    /*left: 50%;*/
     top: 0;
 }
 
@@ -333,6 +340,7 @@
     width: 71%;
     margin-left: 29%;
     height: 85%;
+    overflow: hidden;
     /*background-size: cover;*/
     position: relative;
 }
@@ -363,7 +371,7 @@
     display: flex;
     flex-direction: column;
     transform: rotate(180deg);
-    height: calc(100% - 34px);
+    height: 360px;
     align-items: flex-start;
     justify-content: space-between;
     margin-right: 21px;

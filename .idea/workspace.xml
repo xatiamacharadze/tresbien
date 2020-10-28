@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+            <state relative-caret-position="200">
+              <caret line="263" column="81" selection-start-line="263" selection-start-column="72" selection-end-line="263" selection-end-column="81" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#75#124#0" expanded="true" />
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="278" column="18" selection-start-line="278" selection-start-column="18" selection-end-line="278" selection-end-column="18" />
+            <state relative-caret-position="493">
+              <caret line="292" column="11" lean-forward="true" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
+            <state relative-caret-position="3491">
+              <caret line="288" column="34" selection-start-line="288" selection-start-column="34" selection-end-line="288" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -64,17 +64,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1200.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="555">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="488" column="5" selection-start-line="488" selection-start-column="5" selection-end-line="488" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#5269#0" />
+                <element signature="e#5271#5388#0" />
+                <element signature="e#5390#5432#0" />
+                <element signature="e#5434#5476#0" />
+                <element signature="e#5478#6644#0" />
+                <element signature="e#6646#6836#0" />
+                <element signature="e#6838#7225#0" />
+                <element signature="e#7227#7269#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,16 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>list</find>
-      <find>bg2</find>
-      <find>03</find>
-      <find>05</find>
-      <find>01</find>
-      <find>02</find>
-      <find>04</find>
-      <find>number</find>
-      <find>.number {</find>
-      <find>bg</find>
       <find>.about-container .header h1</find>
       <find>we-do</find>
       <find>we-do-container</find>
@@ -119,7 +119,17 @@
       <find>who we are</find>
       <find>who-we-are</find>
       <find>.who-we-are span</find>
+      <find>hey there</find>
+      <find>contact-us .</find>
+      <find>who-we-are</find>
+      <find>.who-we-are .arrows</find>
+      <find>who-we-are s</find>
       <find>.about-container .bottom</find>
+      <find>about-container .bo</find>
+      <find>.who-we-are span</find>
+      <find>who-we</find>
+      <find>who-we-are .a</find>
+      <find>max-height</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,11 +171,11 @@
         <option value="$PROJECT_DIR$/static/04-red.svg" />
         <option value="$PROJECT_DIR$/static/05-red.svg" />
         <option value="$PROJECT_DIR$/src/styles/global.css" />
-        <option value="$PROJECT_DIR$/src/styles/style-max-width-1200.css" />
-        <option value="$PROJECT_DIR$/src/styles/style-max-width-900.css" />
         <option value="$PROJECT_DIR$/src/components/layout.js" />
         <option value="$PROJECT_DIR$/src/styles/main.css" />
         <option value="$PROJECT_DIR$/src/styles/style-max-width-1450.css" />
+        <option value="$PROJECT_DIR$/src/styles/style-max-width-1200.css" />
+        <option value="$PROJECT_DIR$/src/styles/style-max-width-900.css" />
       </list>
     </option>
   </component>
@@ -265,7 +275,7 @@
       <updated>1599657316892</updated>
       <workItem from="1599657318238" duration="28564000" />
       <workItem from="1603127659032" duration="19098000" />
-      <workItem from="1603644208619" duration="4863000" />
+      <workItem from="1603644208619" duration="6851000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599659179410</created>
@@ -484,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603403110627</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add style updates">
+      <created>1603810926886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603810926886</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52525000" />
+    <option name="totallyTimeSpent" value="54513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
@@ -772,24 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1200.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="488" column="5" selection-start-line="488" selection-start-column="5" selection-end-line="488" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="263" column="81" selection-start-line="263" selection-start-column="72" selection-end-line="263" selection-end-column="81" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#75#124#0" expanded="true" />
@@ -798,17 +801,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1200.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="278" column="18" selection-start-line="278" selection-start-column="18" selection-end-line="278" selection-end-column="18" />
+        <state relative-caret-position="493">
+          <caret line="292" column="11" lean-forward="true" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        <state relative-caret-position="3491">
+          <caret line="288" column="34" selection-start-line="288" selection-start-column="34" selection-end-line="288" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#5269#0" />
+            <element signature="e#5271#5388#0" />
+            <element signature="e#5390#5432#0" />
+            <element signature="e#5434#5476#0" />
+            <element signature="e#5478#6644#0" />
+            <element signature="e#6646#6836#0" />
+            <element signature="e#6838#7225#0" />
+            <element signature="e#7227#7269#0" />
+          </folding>
         </state>
       </provider>
     </entry>

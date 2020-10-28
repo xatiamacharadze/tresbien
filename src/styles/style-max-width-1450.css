@@ -1,12 +1,12 @@
 @media screen and (max-height: 950px) {
 
     /*.who-we-are span.fs-18 {*/
-        /*font-size: 14px;*/
+    /*font-size: 14px;*/
     /*}*/
 
 }
 
-@media screen and (max-height: 780px) {
+@media screen and (max-height: 800px) {
 
     .who-we-are span {
         display: none;
@@ -22,7 +22,7 @@
 
     .who-we-are .arrows {
         transform: rotate(0);
-        height: 150%;
+        /*height: 150%;*/
         display: flex;
     }
 
@@ -32,15 +32,11 @@
 
     .who-we-are {
         margin-left: 20px;
+        width: auto;
     }
 
 }
 
-@media screen and (max-height: 780px) {
-
-
-
-}
 
 @media screen and (max-width: 1700px) {
 
@@ -102,8 +98,8 @@
     }
 
     .about-container .mid-section {
-        padding: 9% 45px;
-        margin-bottom: 25px;
+        padding: 7% 45px;
+        /*margin-bottom: 25px;*/
     }
 
     .about-container .bottom {
@@ -182,6 +178,12 @@
         display: none;
     }
 
+    .who-we-are .arrows {
+        display: flex;
+        margin-right: 0;
+        /*margin-left: 20px;*/
+    }
+
     .who-we-are > img {
         display: none;
     }
@@ -207,7 +209,11 @@
     }
 
     .who-we-are .arrows {
-        height: 130%;
+        /*height: 130%;*/
+    }
+
+    .about-container .header {
+        padding: 15px 0;
     }
 
 }
@@ -267,7 +273,7 @@
     }
 
     .about-container .bottom {
-        padding: 0 40px;
+        /*padding: 0 40px;*/
         width: calc(100% - 80px);
     }
 
@@ -276,8 +282,13 @@
         height: 45px;
     }
 
-    /*.mail-container img {*/
-    /*max-width: 10%;*/
-    /*}*/
 
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    .about-container .bottom {
+        max-height: 30%;
+    }
 }

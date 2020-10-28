@@ -261,7 +261,7 @@ export default class TemplateWrapper extends Component {
           <img className={"hover"} src={"02-red.svg"}/>
         </div>
         <div className="header">
-          <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there.</h1>
+          <h1 className="fs-46 fc-red monument-extended-book uppercase">hey there</h1>
         </div>
         <div className="mid-section">
         <span className="monument-extended-book fs-16 fc-beige">
