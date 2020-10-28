@@ -170,6 +170,7 @@
     .about-container .bottom {
         padding: 0;
         width: 100%;
+        max-height: none;
     }
 
     .about-container .number {
