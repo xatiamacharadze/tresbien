@@ -21,7 +21,6 @@
     }
 
     .who-we-are .arrows {
-        transform: rotate(0);
         /*height: 150%;*/
         display: flex;
     }
@@ -33,6 +32,10 @@
     .who-we-are {
         margin-left: 20px;
         width: auto;
+    }
+
+    .who-we-are .arrows {
+        margin-left: 0;
     }
 
 }
@@ -127,6 +130,9 @@
         max-width: 38px;
     }
 
+    .about-container .header h1 {
+        font-size: 2.6vw;
+    }
 
 }
 
@@ -208,12 +214,12 @@
         max-width: 33px;
     }
 
-    .who-we-are .arrows {
-        /*height: 130%;*/
-    }
-
     .about-container .header {
         padding: 15px 0;
+    }
+
+    .about-container .header h1 {
+        font-size: 2.5vw;
     }
 
 }

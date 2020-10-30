@@ -277,7 +277,9 @@
 }
 
 .who-we-are .arrows {
+    transform: rotate(0);
     display: none;
+    margin-left: 25px;
 }
 
 .who-we-are img {
@@ -375,6 +377,7 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-right: 21px;
+    margin-top: -10px;
 }
 
 .arrows img {

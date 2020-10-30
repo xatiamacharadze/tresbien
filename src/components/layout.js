@@ -305,7 +305,7 @@ export default class TemplateWrapper extends Component {
               <li className="fs-16 fc-beige monument-extended-book">Writing</li>
               <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
               <li className="fs-16 fc-beige monument-extended-book">Branding</li>
-              <li className="fs-16 fc-beige monument-extended-book">Social Campaigns</li>
+              <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
               <li className="fs-16 fc-beige monument-extended-book">Performance</li>
             </ul>
           </div>
