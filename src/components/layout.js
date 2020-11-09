@@ -108,12 +108,12 @@ const TemplateWrapper1 = ({ children }) => {
                 </div>
                 <img src={"arrow.svg"}/>
 
-                <div className="arrows">
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                </div>
+                {/*<div className="arrows">*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
@@ -159,13 +159,21 @@ const TemplateWrapper1 = ({ children }) => {
               <div className="contact-us">
                 <div className="contact">
                   <div className="inner-container">
-                    <p className="fs-18 fc-black monument-extended-medium">Contact us</p>
-                    <div className="arrows">
-                      <img src={"arrow.svg"}/>
-                      <img src={"arrow.svg"}/>
-                      <img src={"arrow.svg"}/>
-                      <img src={"arrow.svg"}/>
+                    <div className="bottom">
+                      <div className="who-we-are">
+                        <div className={"rotate-container"}>
+                          <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
+                        </div>
+                        <img src={"arrow.svg"}/>
+                      </div>
                     </div>
+                    {/*<p className="fs-18 fc-black monument-extended-medium">Contact us</p>*/}
+                    {/*<div className="arrows">*/}
+                      {/*<img src={"arrow.svg"}/>*/}
+                      {/*<img src={"arrow.svg"}/>*/}
+                      {/*<img src={"arrow.svg"}/>*/}
+                      {/*<img src={"arrow.svg"}/>*/}
+                    {/*</div>*/}
                   </div>
                 </div>
               </div>
@@ -276,12 +284,12 @@ export default class TemplateWrapper extends Component {
             </div>
             <img src={"arrow.svg"}/>
 
-            <div className="arrows">
-              <img src={"arrow.svg"}/>
-              <img src={"arrow.svg"}/>
-              <img src={"arrow.svg"}/>
-              <img src={"arrow.svg"}/>
-            </div>
+            {/*<div className="arrows">*/}
+              {/*<img src={"arrow.svg"}/>*/}
+              {/*<img src={"arrow.svg"}/>*/}
+              {/*<img src={"arrow.svg"}/>*/}
+              {/*<img src={"arrow.svg"}/>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
@@ -294,7 +302,7 @@ export default class TemplateWrapper extends Component {
         <div className="rotated">
           <div className="p-wrapper">
             <p className="fs-16 fc-beige monument-extended-book">
-              Video, Photo, Design, Writing, Strategy, Branding, Social
+              Video, Photo, Design, Writing, Strategy, Branding,
               Campaigns, Performance
             </p>
 
@@ -332,13 +340,21 @@ export default class TemplateWrapper extends Component {
           <div className="contact-us">
             <div className="contact">
               <div className="inner-container">
-                <p className="fs-18 fc-black monument-extended-medium">Contact us</p>
-                <div className="arrows">
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                  <img src={"arrow.svg"}/>
-                </div>
+                {/*<p className="fs-18 fc-black monument-extended-medium">Contact us</p>*/}
+                {/*<div className="arrows">*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                  {/*<img src={"arrow.svg"}/>*/}
+                {/*</div>*/}
+                {/*<div className="bottom">*/}
+                  <div className="who-we-are">
+                    <div className={"rotate-container"}>
+                      <span className="fs-18 fc-black monument-extended-medium">Contact us</span>
+                    </div>
+                    <img src={"arrow.svg"}/>
+                  </div>
+                {/*</div>*/}
               </div>
             </div>
           </div>

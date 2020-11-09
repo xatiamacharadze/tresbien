@@ -49,10 +49,12 @@
 
     .fs-16 {
         font-size: 16px;
+        line-height: 26px;
     }
 
     .fs-18 {
         font-size: 24px;
+        line-height: 34px;
     }
 
     .fs-46 {
@@ -374,10 +376,12 @@
 
     .fs-16 {
         font-size: 14px;
+        line-height: 24px;
     }
 
     .fs-18 {
         font-size: 16px;
+        line-height: 26px;
     }
 
     .fs-30 {
@@ -456,6 +460,18 @@
 
 @media screen and (max-width: 400px) {
 
+    .fs-30 {
+        font-size: 16px;
+    }
+
+    .description-container .fs-18 {
+        font-size: 18px;
+    }
+
+    .decentralized-wrapper img {
+        max-height: 240px;
+    }
+
     .mail-container span {
         /*margin-right: 10px;*/
     }
@@ -469,6 +485,21 @@
         font-size: 50px;
     }
 
+    .scroll-down {
+        height: 100px;
+    }
+
+    .job-container {
+        height: calc(100% - 100px);
+    }
+
+    .description-container {
+        height: calc(100% - 100px);
+    }
+
+    .scroll-down img {
+        max-width: 20px;
+    }
 
 }
 
@@ -476,6 +507,7 @@
 
     .fs-16 {
         font-size: 12px;
+        line-height: 22px;
     }
 
     .mail-container span {
@@ -503,12 +535,25 @@
     .fs-30 {
         font-size: 16px;
     }
+
+}
+
+@media screen and (max-width: 340px) and (max-height: 480px) {
+
+    .job-container .number {
+        display: none;
+    }
+
 }
 
 @media screen and (max-height: 800px) and (max-width: 900px){
 
     .description-container .fs-18 {
         font-size: 16px;
+    }
+
+    .decentralized-wrapper img {
+        max-height: 200px;
     }
 
     .job-container {

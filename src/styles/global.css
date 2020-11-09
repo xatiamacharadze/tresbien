@@ -100,10 +100,12 @@ table {
 
 .fs-16 {
   font-size: 16px;
+  line-height: 26px;
 }
 
 .fs-18 {
   font-size: 18px;
+  line-height: 28px;
 }
 
 .fs-20 {

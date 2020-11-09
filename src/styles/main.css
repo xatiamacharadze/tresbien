@@ -360,6 +360,11 @@
     width: 65%;
 }
 
+.contact .who-we-are {
+    transform: rotate(180deg) translateX(100%);
+    margin-left: calc(100% - 20px);
+}
+
 .contact-us .inner-container p {
     transform: rotate(-90deg) translate(0, 100%);
     transform-origin: bottom left;

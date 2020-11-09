@@ -1,41 +1,33 @@
-@media screen and (max-height: 950px) {
+@media screen and (max-height: 880px) {
 
-    /*.who-we-are span.fs-18 {*/
-    /*font-size: 14px;*/
-    /*}*/
+    .about-container .who-we-are img {
+        display: none;
+    }
+
+    .about-container .bottom {
+        height: 30vh;
+    }
 
 }
 
+
 @media screen and (max-height: 800px) {
 
-    .who-we-are span {
+
+    .about-container .bottom {
+        height: 25vh;
+    }
+
+    .about-container .who-we-are span {
         display: none;
     }
 
-    .who-we-are > img {
-        display: none;
+    .p-wrapper p {
+        width: 60%;
     }
 
-    .talk-container .fs-60 {
-        font-size: 38px;
-    }
-
-    .who-we-are .arrows {
-        /*height: 150%;*/
-        display: flex;
-    }
-
-    .who-we-are .arrows img {
-        position: relative;
-    }
-
-    .who-we-are {
-        margin-left: 20px;
-        width: auto;
-    }
-
-    .who-we-are .arrows {
-        margin-left: 0;
+    .p-wrapper {
+        width: 375%;
     }
 
 }
@@ -101,7 +93,7 @@
     }
 
     .about-container .mid-section {
-        padding: 7% 45px;
+        padding: 7% 2.8vw;
         /*margin-bottom: 25px;*/
     }
 
@@ -118,10 +110,9 @@
         max-width: 50px;
     }
 
-    .p-wrapper p {
-        width: 85%;
-    }
-
+    /*.p-wrapper p {*/
+    /*width: 85%;*/
+    /*}*/
     .decentralized-wrapper img {
         max-height: 200px;
     }
@@ -132,6 +123,75 @@
 
     .about-container .header h1 {
         font-size: 2.6vw;
+    }
+
+    @media screen and (max-height: 800px) {
+
+        .talk-container .fs-60 {
+            font-size: 38px;
+        }
+
+        .who-we-are .arrows {
+            /*height: 150%;*/
+            display: flex;
+        }
+
+        .who-we-are .arrows img {
+            position: relative;
+        }
+
+        .who-we-are .arrows {
+            margin-left: 0;
+        }
+
+        .p-wrapper {
+            width: 420%;
+        }
+
+    }
+
+
+    @media screen and (max-height: 760px) {
+
+
+        .p-wrapper p {
+            width: 55%;
+        }
+
+        .p-wrapper {
+            width: 320%;
+        }
+
+        .number {
+            width: 55px;
+            height: 55px;
+        }
+
+        .about-container .who-we-are .rotate-container {
+            display: none;
+        }
+
+        .about-container .bottom {
+            height: 30%;
+        }
+
+    }
+
+    @media screen and (max-height: 650px) {
+
+        .contact-us .who-we-are img {
+            display: none;
+        }
+
+        .p-wrapper p {
+            width: 40%;
+        }
+
+        .number {
+            width: 50px;
+            height: 50px;
+        }
+
     }
 
 }
@@ -181,7 +241,7 @@
     }
 
     .who-we-are span {
-        display: none;
+        /*display: none;*/
     }
 
     .who-we-are .arrows {
@@ -191,7 +251,7 @@
     }
 
     .who-we-are > img {
-        display: none;
+        /*display: none;*/
     }
 
     .p-wrapper p {
@@ -199,7 +259,8 @@
     }
 
     .about-container .mid-section {
-        padding: 6% 45px;
+        padding: 6% 3.1vw;
+
     }
 
     .mail-container img {
