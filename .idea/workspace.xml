@@ -4,10 +4,7 @@
     <list default="true" id="c31c999f-37de-4f11-b5e2-ef026baf1e64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style-max-width-1200.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-max-width-1200.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style-max-width-1450.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-max-width-1450.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style-max-width-900.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-max-width-900.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,12 +21,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="343" column="41" selection-start-line="343" selection-start-column="35" selection-end-line="343" selection-end-column="41" />
+            <state relative-caret-position="414">
+              <caret line="361" column="18" lean-forward="true" selection-start-line="361" selection-start-column="18" selection-end-line="361" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#75#124#0" expanded="true" />
                 <element signature="e#195#241#0" expanded="true" />
+                <element signature="e#7416#7497#0" />
+                <element signature="e#7505#8668#0" />
+                <element signature="e#12526#14359#0" />
               </folding>
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="450" selection-start-line="450" selection-end-line="450" />
+            <state relative-caret-position="470">
+              <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -48,16 +48,16 @@
         <entry file="file://$PROJECT_DIR$/src/styles/global.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
-              <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+              <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -71,16 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="537" selection-start-line="537" selection-end-line="537" />
+            <state relative-caret-position="215">
+              <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
               <folding>
                 <element signature="e#1#604#0" />
                 <element signature="e#5271#5388#0" />
+                <element signature="e#5390#5432#0" />
                 <element signature="e#5434#5476#0" />
-                <element signature="e#5478#6644#0" />
+                <element signature="e#6646#6836#0" />
+                <element signature="e#8877#9458#0" />
+                <element signature="e#8238#8807#0" />
               </folding>
             </state>
           </provider>
@@ -97,15 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mail-con</find>
-      <find>about-container</find>
-      <find>who-we-are span</find>
-      <find>who we are</find>
-      <find>who-we-are</find>
-      <find>.who-we-are span</find>
-      <find>hey there</find>
-      <find>contact-us .</find>
-      <find>who-we-are</find>
       <find>who-we-are s</find>
       <find>.about-container .bottom</find>
       <find>about-container .bo</find>
@@ -127,6 +121,15 @@
       <find>.mid-sec</find>
       <find>description-container</find>
       <find>contact-us</find>
+      <find>fs-18</find>
+      <find>.p-wrapper p</find>
+      <find>we-do</find>
+      <find>rotate-wrapper</find>
+      <find>.we-do-container .rotated</find>
+      <find>padding-bottom</find>
+      <find>about-container</find>
+      <find>rotation-wrapper-outer</find>
+      <find>.about-container .mid-section</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -169,10 +172,10 @@
         <option value="$PROJECT_DIR$/static/05-red.svg" />
         <option value="$PROJECT_DIR$/src/styles/global.css" />
         <option value="$PROJECT_DIR$/src/styles/style-max-width-1200.css" />
+        <option value="$PROJECT_DIR$/src/styles/style-max-width-1450.css" />
+        <option value="$PROJECT_DIR$/src/styles/main.css" />
         <option value="$PROJECT_DIR$/src/components/layout.js" />
         <option value="$PROJECT_DIR$/src/styles/style-max-width-900.css" />
-        <option value="$PROJECT_DIR$/src/styles/main.css" />
-        <option value="$PROJECT_DIR$/src/styles/style-max-width-1450.css" />
       </list>
     </option>
   </component>
@@ -272,7 +275,7 @@
       <updated>1599657316892</updated>
       <workItem from="1599657318238" duration="28564000" />
       <workItem from="1603127659032" duration="19098000" />
-      <workItem from="1603644208619" duration="15189000" />
+      <workItem from="1603644208619" duration="21458000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599659179410</created>
@@ -526,11 +529,25 @@
       <option name="project" value="LOCAL" />
       <updated>1604079711901</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add style updates">
+      <created>1604949387455</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949387455</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add style updates">
+      <created>1605025691366</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1605025691366</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62851000" />
+    <option name="totallyTimeSpent" value="69120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
@@ -817,46 +834,52 @@
     <entry file="file://$PROJECT_DIR$/src/styles/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="155" column="8" lean-forward="true" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="180" column="25" lean-forward="true" selection-start-line="180" selection-start-column="25" selection-end-line="180" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="343" column="41" selection-start-line="343" selection-start-column="35" selection-end-line="343" selection-end-column="41" />
+        <state relative-caret-position="414">
+          <caret line="361" column="18" lean-forward="true" selection-start-line="361" selection-start-column="18" selection-end-line="361" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#75#124#0" expanded="true" />
             <element signature="e#195#241#0" expanded="true" />
+            <element signature="e#7416#7497#0" />
+            <element signature="e#7505#8668#0" />
+            <element signature="e#12526#14359#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        <state relative-caret-position="215">
+          <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
           <folding>
             <element signature="e#1#604#0" />
             <element signature="e#5271#5388#0" />
+            <element signature="e#5390#5432#0" />
             <element signature="e#5434#5476#0" />
-            <element signature="e#5478#6644#0" />
+            <element signature="e#6646#6836#0" />
+            <element signature="e#8877#9458#0" />
+            <element signature="e#8238#8807#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="450" selection-start-line="450" selection-end-line="450" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>

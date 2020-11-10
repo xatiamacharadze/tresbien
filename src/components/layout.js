@@ -338,7 +338,7 @@ export default class TemplateWrapper extends Component {
       </div>
 
       <div className="about-container">
-        <div className="number bg-black">
+        <div className="number not-responsive bg-black">
           <img className={"visible"} src={"02.svg"}/>
           <img className={"hover"} src={"02-red.svg"}/>
         </div>
@@ -352,18 +352,15 @@ export default class TemplateWrapper extends Component {
         </span>
         </div>
         <div className="bottom">
+          <div className="number responsive bg-black">
+            <img className={"visible"} src={"02.svg"}/>
+            <img className={"hover"} src={"02-red.svg"}/>
+          </div>
           <div className="who-we-are">
             <div className={"rotate-container"}>
               <span className="fs-18 fc-black monument-extended-medium">Who we are</span>
             </div>
             <img src={"arrow.svg"}/>
-
-            {/*<div className="arrows">*/}
-            {/*<img src={"arrow.svg"}/>*/}
-            {/*<img src={"arrow.svg"}/>*/}
-            {/*<img src={"arrow.svg"}/>*/}
-            {/*<img src={"arrow.svg"}/>*/}
-            {/*</div>*/}
           </div>
         </div>
       </div>
