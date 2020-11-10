@@ -426,7 +426,7 @@
     }
 
     .fs-30 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /*.fs-46 {*/
@@ -505,13 +505,26 @@
         margin-top: 50px;
     }
 
+    .scroll-down {
+        height: 100px;
+    }
+
+    .job-container {
+        height: calc(100% - 100px);
+    }
+
+    .description-container {
+        height: calc(100% - 100px);
+    }
+
+    .scroll-down img {
+        max-width: 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
 
-    .fs-30 {
-        font-size: 16px;
-    }
+
 
     .description-container .fs-18 {
         font-size: 18px;
@@ -535,21 +548,6 @@
         font-size: 50px;
     }
 
-    .scroll-down {
-        height: 100px;
-    }
-
-    .job-container {
-        height: calc(100% - 100px);
-    }
-
-    .description-container {
-        height: calc(100% - 100px);
-    }
-
-    .scroll-down img {
-        max-width: 20px;
-    }
 
 }
 

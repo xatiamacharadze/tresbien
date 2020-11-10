@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c31c999f-37de-4f11-b5e2-ef026baf1e64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style-max-width-900.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style-max-width-900.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,14 +72,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
+            <state relative-caret-position="572">
+              <caret line="521" column="5" selection-start-line="521" selection-start-column="5" selection-end-line="521" selection-end-column="5" />
               <folding>
                 <element signature="e#1#604#0" />
                 <element signature="e#5271#5388#0" />
                 <element signature="e#5390#5432#0" />
                 <element signature="e#5434#5476#0" />
                 <element signature="e#6646#6836#0" />
+                <element signature="e#6838#7225#0" />
                 <element signature="e#8877#9458#0" />
                 <element signature="e#8238#8807#0" />
               </folding>
@@ -103,7 +102,6 @@
       <find>who-we-are s</find>
       <find>.about-container .bottom</find>
       <find>about-container .bo</find>
-      <find>who-we</find>
       <find>max-height</find>
       <find>about-container .bottom</find>
       <find>max-height: 800</find>
@@ -130,6 +128,7 @@
       <find>about-container</find>
       <find>rotation-wrapper-outer</find>
       <find>.about-container .mid-section</find>
+      <find>who-we</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -275,7 +274,7 @@
       <updated>1599657316892</updated>
       <workItem from="1599657318238" duration="28564000" />
       <workItem from="1603127659032" duration="19098000" />
-      <workItem from="1603644208619" duration="21458000" />
+      <workItem from="1603644208619" duration="22700000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1599659179410</created>
@@ -543,17 +542,31 @@
       <option name="project" value="LOCAL" />
       <updated>1605025691366</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add style updates">
+      <created>1605028016280</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605028016281</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add style updates">
+      <created>1605037534782</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605037534782</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69120000" />
+    <option name="totallyTimeSpent" value="70362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -567,7 +580,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22183909" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22183909" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -838,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -867,16 +873,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-1450.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/style-max-width-900.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
+        <state relative-caret-position="572">
+          <caret line="521" column="5" selection-start-line="521" selection-start-column="5" selection-end-line="521" selection-end-column="5" />
           <folding>
             <element signature="e#1#604#0" />
             <element signature="e#5271#5388#0" />
             <element signature="e#5390#5432#0" />
             <element signature="e#5434#5476#0" />
             <element signature="e#6646#6836#0" />
+            <element signature="e#6838#7225#0" />
             <element signature="e#8877#9458#0" />
             <element signature="e#8238#8807#0" />
           </folding>
