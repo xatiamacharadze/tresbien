@@ -338,10 +338,7 @@
     }
 
     .who-we-are {
-        height: 200px;
-        width: 100%;
-        margin-left: 0;
-        top: 0;
+        display: none;
     }
 
     .logo-container img {
@@ -374,6 +371,19 @@
         font-size: 24px;
         line-height: 34px;
     }
+
+
+    @media screen and (max-height: 800px) {
+
+
+        .about-container .bottom {
+            height: 25vh;
+        }
+
+
+    }
+
+
 
 }
 
