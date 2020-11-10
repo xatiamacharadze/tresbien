@@ -23,7 +23,7 @@
     }
 
     .p-wrapper p {
-        width: 60%;
+        /*width: 60%;*/
     }
 
     .p-wrapper {
@@ -37,10 +37,12 @@
 
     .fs-16 {
         font-size: 14px;
+        line-height: 24px;
     }
 
     .fs-18 {
         font-size: 16px;
+        line-height: 26px;
     }
 
     .fs-20 {
@@ -155,7 +157,7 @@
 
 
         .p-wrapper p {
-            width: 55%;
+            /*width: 55%;*/
         }
 
         .p-wrapper {
@@ -184,7 +186,7 @@
         }
 
         .p-wrapper p {
-            width: 40%;
+            /*width: 40%;*/
         }
 
         .number {
@@ -200,6 +202,7 @@
 
     .fs-18 {
         font-size: 14px;
+        line-height: 24px;
     }
 
     .fs-22 {
@@ -255,7 +258,7 @@
     }
 
     .p-wrapper p {
-        width: 90%;
+        /*width: 90%;*/
     }
 
     .about-container .mid-section {
@@ -289,10 +292,12 @@
 
     .fs-16 {
         font-size: 12px;
+        line-height: 22px;
     }
 
     .fs-18 {
         font-size: 14px;
+        line-height: 24px;
     }
 
     .fs-20 {

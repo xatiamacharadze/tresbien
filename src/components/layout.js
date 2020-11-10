@@ -109,41 +109,49 @@ const TemplateWrapper1 = ({ children }) => {
                 <img src={"arrow.svg"}/>
 
                 {/*<div className="arrows">*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
                 {/*</div>*/}
               </div>
             </div>
           </div>
 
-          <div className="we-do-container">
+          <div className="we-do-container" ref={"weDoContainer"}>
             <div className="number bg-black">
               <img className={"visible"} src={"03.svg"}/>
               <img className={"hover"} src={"03-red.svg"}/>
             </div>
             <div className="rotated">
-              <div className="p-wrapper">
-                <p className="fs-16 fc-beige monument-extended-book">
-                  Video, Photo, Design, Writing, Strategy, Branding,
-                  Campaigns, Performance
-                </p>
+              <div className="rotated rotation-wrapper-outer" style={{ width: this.percentage }}>
+                <div className="p-wrapper">
+                  <p className="fs-16 fc-beige monument-extended-book">
+                    Video, Photo, Design, Writing, Strategy, Branding,
+                    Campaigns, Performance
+                  </p>
 
-                <ul>
-                  <li className="fs-16 fc-beige monument-extended-book">Video</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Photo</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Design</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Writing</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Branding</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
-                  <li className="fs-16 fc-beige monument-extended-book">Performance</li>
-                </ul>
-              </div>
+                  <ul>
+                    <li className="fs-16 fc-beige monument-extended-book">Video</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Photo</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Design</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Writing</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Branding</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
+                    <li className="fs-16 fc-beige monument-extended-book">Performance</li>
+                  </ul>
+                </div>
 
-              <div className="we-do">
-                <span className="uppercase fs-46 fc-red monument-extended-book">we do</span>
+                <div className="we-do ">
+                  <span className="uppercase fs-46 fc-red monument-extended-book">we do</span>
+
+                  <div className="number bg-black responsive">
+                    <img className={"visible"} src={"03.svg"}/>
+                    <img className={"hover"} src={"03-red.svg"}/>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -169,10 +177,10 @@ const TemplateWrapper1 = ({ children }) => {
                     </div>
                     {/*<p className="fs-18 fc-black monument-extended-medium">Contact us</p>*/}
                     {/*<div className="arrows">*/}
-                      {/*<img src={"arrow.svg"}/>*/}
-                      {/*<img src={"arrow.svg"}/>*/}
-                      {/*<img src={"arrow.svg"}/>*/}
-                      {/*<img src={"arrow.svg"}/>*/}
+                    {/*<img src={"arrow.svg"}/>*/}
+                    {/*<img src={"arrow.svg"}/>*/}
+                    {/*<img src={"arrow.svg"}/>*/}
+                    {/*<img src={"arrow.svg"}/>*/}
                     {/*</div>*/}
                   </div>
                 </div>
@@ -214,16 +222,82 @@ TemplateWrapper1.propTypes = {
 
 
 export default class TemplateWrapper extends Component {
+  percentage = 0;
+  _element;
+  rotated;
+
+  state = {
+    dimensions: null,
+  };
 
   constructor(props) {
     super(props);
+    this._element = React.createRef();
+    this.rotated = React.createRef();
   }
 
 
   componentDidMount() {
+    // this.percentage = this._element.current.getBoundingClientRect().height;
+    // this._updateDimension();
+    // console.log("percentage", this.percentage)
+    this.setState({
+      dimensions: {
+        width: this.container.offsetWidth,
+        height: this.container.offsetHeight,
+      },
+    });
+  }
+
+  _updateDimension() {
+    const canvasOverlay = this.rotated;
+    //Ideally there should be some calculations to get width and height
+    // let _elementHeight = this._element.current.getBoundingClientRect().height;
+    let _elementHeight1 = document.getElementsByClassName('we-do-container')[0].clientHeight;
+    this.percentage = document.getElementsByClassName('we-do-container')[0].clientHeight;
+    // canvasOverlay.style.width = `${_elementHeight1}px`;
+    console.log("update shemo", canvasOverlay, _elementHeight1)
+
+  }
+
+  renderContent() {
+    const { dimensions } = this.state;
+
+    return (
+      <div className="rotated rotation-wrapper-outer" style={{ width: dimensions.height, paddingBottom: dimensions.height - dimensions.width}}>
+        <div className="p-wrapper">
+          <p className="fs-16 fc-beige monument-extended-book">
+            Video, Photo, Design, Writing, Strategy, Branding,
+            Campaigns, Performance
+          </p>
+
+          <ul>
+            <li className="fs-16 fc-beige monument-extended-book">Video</li>
+            <li className="fs-16 fc-beige monument-extended-book">Photo</li>
+            <li className="fs-16 fc-beige monument-extended-book">Design</li>
+            <li className="fs-16 fc-beige monument-extended-book">Writing</li>
+            <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
+            <li className="fs-16 fc-beige monument-extended-book">Branding</li>
+            <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
+            <li className="fs-16 fc-beige monument-extended-book">Performance</li>
+          </ul>
+        </div>
+
+        <div className="we-do ">
+          <span className="uppercase fs-46 fc-red monument-extended-book">we do</span>
+
+          <div className="number bg-black responsive">
+            <img className={"visible"} src={"03.svg"}/>
+            <img className={"hover"} src={"03-red.svg"}/>
+          </div>
+        </div>
+
+      </div>
+    );
   }
 
   render() {
+    const { dimensions } = this.state;
 
     return <div id="mainContainer" className="main-container bg-black">
 
@@ -285,48 +359,22 @@ export default class TemplateWrapper extends Component {
             <img src={"arrow.svg"}/>
 
             {/*<div className="arrows">*/}
-              {/*<img src={"arrow.svg"}/>*/}
-              {/*<img src={"arrow.svg"}/>*/}
-              {/*<img src={"arrow.svg"}/>*/}
-              {/*<img src={"arrow.svg"}/>*/}
+            {/*<img src={"arrow.svg"}/>*/}
+            {/*<img src={"arrow.svg"}/>*/}
+            {/*<img src={"arrow.svg"}/>*/}
+            {/*<img src={"arrow.svg"}/>*/}
             {/*</div>*/}
           </div>
         </div>
       </div>
 
-      <div className="we-do-container">
+      <div className="we-do-container" ref={el => (this.container = el)}>
         <div className="number bg-black desktop">
           <img className={"visible"} src={"03.svg"}/>
           <img className={"hover"} src={"03-red.svg"}/>
         </div>
-        <div className="rotated">
-          <div className="p-wrapper">
-            <p className="fs-16 fc-beige monument-extended-book">
-              Video, Photo, Design, Writing, Strategy, Branding,
-              Campaigns, Performance
-            </p>
 
-            <ul>
-              <li className="fs-16 fc-beige monument-extended-book">Video</li>
-              <li className="fs-16 fc-beige monument-extended-book">Photo</li>
-              <li className="fs-16 fc-beige monument-extended-book">Design</li>
-              <li className="fs-16 fc-beige monument-extended-book">Writing</li>
-              <li className="fs-16 fc-beige monument-extended-book">Strategy</li>
-              <li className="fs-16 fc-beige monument-extended-book">Branding</li>
-              <li className="fs-16 fc-beige monument-extended-book">Campaigns</li>
-              <li className="fs-16 fc-beige monument-extended-book">Performance</li>
-            </ul>
-          </div>
-
-          <div className="we-do">
-            <span className="uppercase fs-46 fc-red monument-extended-book">we do</span>
-
-            <div className="number bg-black responsive">
-              <img className={"visible"} src={"03.svg"}/>
-              <img className={"hover"} src={"03-red.svg"}/>
-            </div>
-          </div>
-        </div>
+        {dimensions && this.renderContent()}
 
       </div>
 
@@ -342,18 +390,18 @@ export default class TemplateWrapper extends Component {
               <div className="inner-container">
                 {/*<p className="fs-18 fc-black monument-extended-medium">Contact us</p>*/}
                 {/*<div className="arrows">*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
-                  {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
+                {/*<img src={"arrow.svg"}/>*/}
                 {/*</div>*/}
                 {/*<div className="bottom">*/}
-                  <div className="who-we-are">
-                    <div className={"rotate-container"}>
-                      <span className="fs-18 fc-black monument-extended-medium">Contact us</span>
-                    </div>
-                    <img src={"arrow.svg"}/>
+                <div className="who-we-are">
+                  <div className={"rotate-container"}>
+                    <span className="fs-18 fc-black monument-extended-medium">Contact us</span>
                   </div>
+                  <img src={"arrow.svg"}/>
+                </div>
                 {/*</div>*/}
               </div>
             </div>

@@ -238,13 +238,31 @@
 }
 
 .p-wrapper {
-    transform: rotate(-90deg) translate(-100%, -50%);
-    transform-origin: top left;
-    position: absolute;
-    top: 0;
-    left: 50%;
     text-align: right;
-    width: 500%;
+}
+
+.we-do-container .rotated {
+    position: relative;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: rotate(90deg) scale(-1);
+    flex-direction: row-reverse;
+    width: 370%;
+    padding-bottom: 270%;
+}
+
+.p-wrapper {
+    margin-left: 20px;
+    /*transform: rotate(-90deg) translate(-100%, -50%);*/
+    /*transform-origin: top left;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 50%;*/
+    /*text-align: right;*/
+    /*width: 500%;*/
 }
 
 .p-wrapper ul {
@@ -252,9 +270,9 @@
 }
 
 .p-wrapper p {
-    width: 75%;
-    max-width: 51vh;
-    margin-left: auto;
+    /*width: 75%;*/
+    /*max-width: 51vh;*/
+    /*margin-left: auto;*/
 }
 
 .rotate-container {
@@ -301,13 +319,35 @@
 }
 
 .we-do {
-    transform: rotate(-90deg) translate(0, 50%);
-    transform-origin: bottom left;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+    /*transform: rotate(-90deg) translate(0, 50%);*/
+    /*transform-origin: bottom left;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 50%;*/
     /*left: 100%;*/
 }
+
+/*.rotation-wrapper-outer {*/
+    /*display: table;*/
+/*}*/
+/*.rotation-wrapper-inner {*/
+    /*padding: 50% 0;*/
+    /*height: 0;*/
+/*}*/
+/*.element-to-rotate {*/
+    /*display: block;*/
+    /*transform-origin: top left;*/
+    /*!* Note: for a CLOCKWISE rotation, use the commented-out*/
+       /*transform instead of this one. *!*/
+    /*transform: rotate(-90deg) translate(-100%);*/
+    /*!* transform: rotate(90deg) translate(0, -100%); *!*/
+    /*margin-top: -50%;*/
+
+    /*!* Not vital, but possibly a good idea if the element you're rotating contains*/
+       /*text and you want a single long vertical line of text and the pre-rotation*/
+       /*width of your element is small enough that the text wraps: *!*/
+    /*white-space: nowrap;*/
+/*}*/
 
 .contact-wrapper {
     border-left: 1px solid rgba(255, 255, 255, .3);
