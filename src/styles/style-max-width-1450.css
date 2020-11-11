@@ -75,7 +75,7 @@
 
     .fs-46 {
         /*font-size: 42px;*/
-        font-size: 2.4vw;
+        font-size: 2.6vw;
     }
 
     .fs-48 {
@@ -227,6 +227,10 @@
 
     .fs-40 {
         font-size: 28px;
+    }
+
+    .fs-46 {
+        font-size: 2.5vw;
     }
 
     .fs-48 {

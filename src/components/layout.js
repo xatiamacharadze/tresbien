@@ -128,7 +128,7 @@ const TemplateWrapper1 = ({ children }) => {
                 <div className="p-wrapper">
                   <p className="fs-16 fc-beige monument-extended-book">
                     Video, Photo, Design, Writing, Strategy, Branding,
-                    Campaigns, Performance
+                    Campaigns, Performance.
                   </p>
 
                   <ul>
@@ -268,7 +268,7 @@ export default class TemplateWrapper extends Component {
         <div className="p-wrapper">
           <p className="fs-16 fc-beige monument-extended-book">
             Video, Photo, Design, Writing, Strategy, Branding,
-            Campaigns, Performance
+            Campaigns, Performance.
           </p>
 
           <ul>
