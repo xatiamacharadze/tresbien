@@ -13,7 +13,7 @@ export default function HTML(props) {
       />
       <title>Tresbien Agency</title>
       <meta property="og:title" content="Tresbien Agency"/>
-      <meta property="og:image" content="https://tresbien.agency/thubmnail.png"/>
+      <meta property="og:image" content="https://tresbien.agency/thumbnail.png"/>
       {props.headComponents}
     </head>
     <body {...props.bodyAttributes}>
