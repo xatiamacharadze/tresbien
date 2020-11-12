@@ -16,6 +16,7 @@ export default function HTML(props) {
       <meta property="og:image" content="https://tresbien.agency/thumbnail.png"/>
       {props.headComponents}
     </head>
+
     <body {...props.bodyAttributes}>
     {props.preBodyComponents}
     <div
