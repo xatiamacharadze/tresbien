@@ -14,6 +14,9 @@ export default function HTML(props) {
       <title>Tresbien Agency</title>
       <meta property="og:title" content="Tresbien Agency"/>
       <meta property="og:image" content="https://tresbien.agency/thumbnail.png"/>
+      <meta property="og:image" content="https://tresbien.agency/thumbnail.png"/>
+      <link rel="apple-touch-icon" href="https://tresbien.agency/tb.png"/>
+
       {props.headComponents}
     </head>
 
